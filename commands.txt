@@ -5,6 +5,11 @@ npm install --save-dev hardhat
 npx hardhat
 
 compiler: npx hardhat compile
+
 npx hardhat node
+
 npx hardhat run scripts/deploy.js --network localhost
+
 npm install ethers
+
+artifacts/contracts/EventBooking.sol/EventBooking.json
